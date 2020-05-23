@@ -10,8 +10,7 @@ namespace QuitarEspacio
             Console.Write("Ingrese el texto al cual desea eliminarle espacios o guiones : ");
             string cadena = Convert.ToString(Console.ReadLine());
             string cadenaNueva = ToCamelCase(cadena);
-            string cadenafinal = QuitarEspacios(cadenaNueva);
-            Console.WriteLine(cadenafinal);
+            Console.WriteLine(QuitarEspacios(cadenaNueva));
             Console.ReadKey();
         }
 
